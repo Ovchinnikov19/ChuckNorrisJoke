@@ -1,0 +1,6 @@
+module Pods_ChuckNorrisJoke {
+  umbrella header "Pods-ChuckNorrisJoke-umbrella.h"
+
+  export *
+  module * { export * }
+}

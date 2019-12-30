@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		06D6C45623B9E55600A91CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6C45523B9E55600A91CF4 /* AppDelegate.swift */; };
 		06D6C45823B9E55600A91CF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6C45723B9E55600A91CF4 /* SceneDelegate.swift */; };
-		06D6C45A23B9E55600A91CF4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6C45923B9E55600A91CF4 /* FirstViewController.swift */; };
-		06D6C45C23B9E55600A91CF4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6C45B23B9E55600A91CF4 /* SecondViewController.swift */; };
+		06D6C45A23B9E55600A91CF4 /* JokesFinderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6C45923B9E55600A91CF4 /* JokesFinderController.swift */; };
+		06D6C45C23B9E55600A91CF4 /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6C45B23B9E55600A91CF4 /* WebController.swift */; };
 		06D6C45F23B9E55600A91CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D6C45D23B9E55600A91CF4 /* Main.storyboard */; };
 		06D6C46123B9E55A00A91CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D6C46023B9E55A00A91CF4 /* Assets.xcassets */; };
 		06D6C46423B9E55A00A91CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D6C46223B9E55A00A91CF4 /* LaunchScreen.storyboard */; };
+		06D6C46C23BA0D0F00A91CF4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6C46B23BA0D0F00A91CF4 /* NetworkService.swift */; };
+		06D6C47023BA209A00A91CF4 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6C46F23BA209A00A91CF4 /* SearchResponse.swift */; };
+		A69F972ADF0FFD6E99D70C5C /* libPods-ChuckNorrisJoke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2789F1FF7D8F325234D20A /* libPods-ChuckNorrisJoke.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06D6C45223B9E55600A91CF4 /* ChuckNorrisJoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D6C45523B9E55600A91CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06D6C45723B9E55600A91CF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		06D6C45923B9E55600A91CF4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		06D6C45B23B9E55600A91CF4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		06D6C45923B9E55600A91CF4 /* JokesFinderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesFinderController.swift; sourceTree = "<group>"; };
+		06D6C45B23B9E55600A91CF4 /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
 		06D6C45E23B9E55600A91CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06D6C46023B9E55A00A91CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D6C46323B9E55A00A91CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06D6C46523B9E55A00A91CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D6C46B23BA0D0F00A91CF4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		06D6C46F23BA209A00A91CF4 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		2D2789F1FF7D8F325234D20A /* libPods-ChuckNorrisJoke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChuckNorrisJoke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3758724B9A926AC7AA5F0A12 /* Pods-ChuckNorrisJoke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJoke.release.xcconfig"; path = "Target Support Files/Pods-ChuckNorrisJoke/Pods-ChuckNorrisJoke.release.xcconfig"; sourceTree = "<group>"; };
+		44A2F058217DEAFA76ECAA0B /* Pods-ChuckNorrisJoke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJoke.debug.xcconfig"; path = "Target Support Files/Pods-ChuckNorrisJoke/Pods-ChuckNorrisJoke.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69F972ADF0FFD6E99D70C5C /* libPods-ChuckNorrisJoke.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,8 @@
 			children = (
 				06D6C45423B9E55600A91CF4 /* ChuckNorrisJoke */,
 				06D6C45323B9E55600A91CF4 /* Products */,
+				13DBB5FF0D92EBA58B40664B /* Pods */,
+				3E460ECDFB47258B69F5EADE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +71,49 @@
 			children = (
 				06D6C45523B9E55600A91CF4 /* AppDelegate.swift */,
 				06D6C45723B9E55600A91CF4 /* SceneDelegate.swift */,
-				06D6C45923B9E55600A91CF4 /* FirstViewController.swift */,
-				06D6C45B23B9E55600A91CF4 /* SecondViewController.swift */,
+				06D6C46D23BA202600A91CF4 /* Services */,
+				06D6C45923B9E55600A91CF4 /* JokesFinderController.swift */,
+				06D6C45B23B9E55600A91CF4 /* WebController.swift */,
 				06D6C45D23B9E55600A91CF4 /* Main.storyboard */,
 				06D6C46023B9E55A00A91CF4 /* Assets.xcassets */,
 				06D6C46223B9E55A00A91CF4 /* LaunchScreen.storyboard */,
 				06D6C46523B9E55A00A91CF4 /* Info.plist */,
 			);
 			path = ChuckNorrisJoke;
+			sourceTree = "<group>";
+		};
+		06D6C46D23BA202600A91CF4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				06D6C46E23BA204A00A91CF4 /* Model */,
+				06D6C46B23BA0D0F00A91CF4 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		06D6C46E23BA204A00A91CF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06D6C46F23BA209A00A91CF4 /* SearchResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13DBB5FF0D92EBA58B40664B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44A2F058217DEAFA76ECAA0B /* Pods-ChuckNorrisJoke.debug.xcconfig */,
+				3758724B9A926AC7AA5F0A12 /* Pods-ChuckNorrisJoke.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E460ECDFB47258B69F5EADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D2789F1FF7D8F325234D20A /* libPods-ChuckNorrisJoke.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +123,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06D6C46823B9E55A00A91CF4 /* Build configuration list for PBXNativeTarget "ChuckNorrisJoke" */;
 			buildPhases = (
+				5A5DD6D5730A7F632F32B435 /* [CP] Check Pods Manifest.lock */,
 				06D6C44E23B9E55600A91CF4 /* Sources */,
 				06D6C44F23B9E55600A91CF4 /* Frameworks */,
 				06D6C45023B9E55600A91CF4 /* Resources */,
@@ -136,13 +183,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A5DD6D5730A7F632F32B435 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChuckNorrisJoke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06D6C44E23B9E55600A91CF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06D6C45C23B9E55600A91CF4 /* SecondViewController.swift in Sources */,
-				06D6C45A23B9E55600A91CF4 /* FirstViewController.swift in Sources */,
+				06D6C46C23BA0D0F00A91CF4 /* NetworkService.swift in Sources */,
+				06D6C45C23B9E55600A91CF4 /* WebController.swift in Sources */,
+				06D6C47023BA209A00A91CF4 /* SearchResponse.swift in Sources */,
+				06D6C45A23B9E55600A91CF4 /* JokesFinderController.swift in Sources */,
 				06D6C45623B9E55600A91CF4 /* AppDelegate.swift in Sources */,
 				06D6C45823B9E55600A91CF4 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +360,7 @@
 		};
 		06D6C46923B9E55A00A91CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A2F058217DEAFA76ECAA0B /* Pods-ChuckNorrisJoke.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +378,7 @@
 		};
 		06D6C46A23B9E55A00A91CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3758724B9A926AC7AA5F0A12 /* Pods-ChuckNorrisJoke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
